@@ -39,7 +39,7 @@ def transform_text(text):
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="AI SMS/EMAIL Spam Detector",
+    page_title="SMS/EMAIL Spam Detector",
     page_icon="📩",
     layout="wide"
 )
@@ -100,7 +100,7 @@ st.markdown("""
 # ---------------- SIDEBAR ----------------
 with st.sidebar:
 
-    st.title("📩 AI SMS Spam Detector")
+    st.title("📩 SMS/EMAIL Spam Detector")
 
     st.markdown("---")
 
