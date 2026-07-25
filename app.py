@@ -7,6 +7,7 @@ from nltk.stem.porter import PorterStemmer
 
 # Download NLTK resources (only first time)
 nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
 nltk.download("stopwords", quiet=True)
 
 # ---------------- TEXT PREPROCESSING ----------------
@@ -140,7 +141,7 @@ Algorithms Used
 st.markdown(
 """
 <div class="title">
-📩 AI SMS Spam Detector
+📩 SMS/EMAIL Spam Detector
 </div>
 """,
 unsafe_allow_html=True)
